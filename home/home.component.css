@@ -1,0 +1,73 @@
+
+.homebannerimg {
+  width: 46%;
+  object-fit: cover;
+  transform-origin: 75% 75%;
+  background-position: center;
+  background-size: cover;
+  /*background: linear-gradient(*/
+  /*  rgba(0, 0, 0, 0.45),*/
+  /*  rgba(0, 0, 0, 0.45));*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  /*-webkit-animation-name: zoom;*/
+  /*animation-name: zoom;*/
+  /*-webkit-animation-duration: 10s;*/
+  /*animation-duration: 10s;*/
+  /*-webkit-animation-direction: normal;*/
+  /*animation-direction: normal;*/
+  /*-webkit-animation-iteration-count: infinite;*/
+  /*animation-iteration-count: infinite;*/
+  /*-webkit-animation-fill-mode: backwards;*/
+  /*animation-fill-mode: backwards;*/
+}
+
+#triangle_purple{
+  width:0px;
+  height:0px;
+  border: 50px solid;
+  margin-left: 15%;
+  border-color: #2e0e5a white white white;
+}
+.section_header{
+  font-size: 4.6rem
+}
+.section_header_webUmate{
+  font-size: 8rem;
+  color: #11ffca;
+}
+#triangle_white{
+  width:0px;
+  height:0px;
+  border: 50px solid;
+  margin-left: 85%;
+  border-color: white  #ff2aad  #ff2aad  #ff2aad;
+  z-index: 999;
+}
+.icons_under_why_choose{
+  width: 50px;margin-top:10px;float: left
+}
+.icons_right_intro_under_why_choose{
+  padding-top: 20px;margin-top: -10px;font-size: 20px;font-weight: 600;margin-left: 50px;padding-left: 20px;line-height: 25px;
+}
+.why_choose_each{
+  width: 16.6%;text-align: center;
+}
+.why_choose_white_background{
+  padding: 40px;background: white;border-radius: 50%;width: 180px;height: 180px;text-align: center;margin: auto;
+}
+.why_choose_each_img{
+  width: 95%;text-align: center;
+}
+.why_choose_each_word{
+  color: #2e0e5a;font-size: 2rem;font-weight: 500;text-align: center;
+}
+
+
+#triangle_pink{
+  width:0px;
+  height:0px;
+  border: 50px solid;
+  margin-left: 15%;
+  border-color: #ff2aad white white white;
+}
