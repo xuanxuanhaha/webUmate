@@ -34,7 +34,7 @@ body {
 .hamburger-icon span {
   height: 5px;
   width: 40px;
-  background-color: black;
+  background-color: white;
   display: block;
   margin: 5px 0px 5px 0px;
   transition: 0.7s ease-in-out;
@@ -94,14 +94,12 @@ div.menu-pane {
 .menu-pane li {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 10px;
-  font-size: 1em;
+  margin-left: 40px;
+  font-size: 1.5em;
 }
 
-
 .menu-pane li:first-child {
-  font-size: 1.3em;
-  margin-left: -10px;
+  padding-top: 40px;
 }
 
 
@@ -115,27 +113,28 @@ div.menu-pane {
   color: #FFAB91;
 }
 
-.menu-links li:first-child:hover a {
-  color: black;
-  background-color: #FFAB91;
-}
+/*change color*/
+/*.menu-links li:first-child:hover a {*/
+/*  color: black;*/
+/*  background-color: #FFAB91;*/
+/*}*/
 
-#QC-info {
-  background-color: #FFAB91;
-  border: 2px solid;
-  border-color: #FFAB91;
-  display: block;
-  opacity: 0;
+/*#QC-info {*/
+/*  background-color: #FFAB91;*/
+/*  border: 2px solid;*/
+/*  border-color: #FFAB91;*/
+/*  display: block;*/
+/*  opacity: 0;*/
 
-}
+/*}*/
 
-.menu-links li:first-child:hover #QC-info {
-  opacity: 1;
-}
+/*.menu-links li:first-child:hover #QC-info {*/
+/*  opacity: 1;*/
+/*}*/
 
-.menu-links li:first-child:hover #DC-info {
-  opacity: 1;
-}
+/*.menu-links li:first-child:hover #DC-info {*/
+/*  opacity: 1;*/
+/*}*/
 
 #DC-info {
   background-color: #FFAB91;
@@ -146,10 +145,25 @@ div.menu-pane {
 }
 
 
-.menu-links li:first-child a {
-  padding: 5px;
-}
+/*.menu-links li:first-child a {*/
+/*  padding: 5px;*/
+/*}*/
 
+
+
+/*desktop versions*/
+.webUmate_logo{
+  width: 40%;margin-top: 40px
+}
+.outer_div_for_logo{
+  width: 40%;height: 100px
+}
+.webUmate_menus{
+  width: 60%;height: 100px
+}
+.webUmate_menus_row{
+  margin: 0;float: right;
+}
 
 
 input.hamburger-checkbox {
@@ -160,4 +174,52 @@ input.hamburger-checkbox {
   width: 10vw;
   opacity: 0;
   height: 6vh;
+}
+
+
+
+@media screen and (min-width: 801px) {
+  .mobile_navbar{
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .desktop_navbar{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .webUmate_logo{
+    margin-left: 40px;width: 55%;
+  }
+  .outer_div_for_logo{
+    width: 35%;
+  }
+  .webUmate_menus{
+    width: 65%;
+  }
+
+}
+@media screen and (max-width: 1105px) {
+  .navbar_btns{
+    padding: 10px 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .outer_div_for_logo{
+    width: 25%;
+  }
+  .webUmate_logo{
+    margin-left: 40px;width: 75%;
+  }
+  .webUmate_menus{
+    width: 75%;
+  }
+  .navbar_btns{
+    font-size: 20px;
+  }
+  .spaces_between_navbar_btns{
+    width: 0;
+  }
 }
