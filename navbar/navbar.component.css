@@ -19,7 +19,9 @@ body {
   width: 10px;
 }
 
-
+.contact_img{
+  margin-top: 50px;width: 240px;
+}
 
 
 
@@ -176,7 +178,9 @@ input.hamburger-checkbox {
   height: 6vh;
 }
 
-
+.mobile_img_logo{
+  position: fixed;right: 50px;width: 30%;margin-top: 30px;
+}
 
 @media screen and (min-width: 801px) {
   .mobile_navbar{
@@ -194,12 +198,14 @@ input.hamburger-checkbox {
     margin-left: 40px;width: 55%;
   }
   .outer_div_for_logo{
-    width: 35%;
+    width: 30%;
   }
   .webUmate_menus{
-    width: 65%;
+    width: 70%;
   }
-
+  .webUmate_menus_row{
+    margin-right: 40px;
+  }
 }
 @media screen and (max-width: 1105px) {
   .navbar_btns{
@@ -211,15 +217,24 @@ input.hamburger-checkbox {
     width: 25%;
   }
   .webUmate_logo{
-    margin-left: 40px;width: 75%;
+    margin-left: 30px;width: 75%;
   }
   .webUmate_menus{
-    width: 75%;
+    width: 70%;
   }
   .navbar_btns{
     font-size: 20px;
   }
   .spaces_between_navbar_btns{
     width: 0;
+  }
+  .contact_img{
+    margin-top: 40px;width: 240px
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile_img_logo{
+    width: 50%;
   }
 }
