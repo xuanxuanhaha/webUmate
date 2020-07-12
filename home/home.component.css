@@ -1,3 +1,23 @@
+/*top purple part*/
+
+.top_left_demand_more_wording{
+  color: white;width: 50%;margin-top: 300px;padding-left: 145px
+}
+.top_left_sub_title{
+  font-size: 2.1rem;font-weight: lighter;margin-top: 18px
+}
+
+.section_header_purple{
+  font-size: 4.2rem
+}
+
+.contact_img{
+  margin-top: 50px;width: 240px
+}
+
+.contact_us_wording{
+  margin-top: -55px;margin-left:60px;font-size: 35px
+}
 
 .homebannerimg {
   width: 46%;
@@ -5,21 +25,6 @@
   transform-origin: 75% 75%;
   background-position: center;
   background-size: cover;
-  /*background: linear-gradient(*/
-  /*  rgba(0, 0, 0, 0.45),*/
-  /*  rgba(0, 0, 0, 0.45));*/
-  /*background-size: cover;*/
-  /*background-repeat: no-repeat;*/
-  /*-webkit-animation-name: zoom;*/
-  /*animation-name: zoom;*/
-  /*-webkit-animation-duration: 10s;*/
-  /*animation-duration: 10s;*/
-  /*-webkit-animation-direction: normal;*/
-  /*animation-direction: normal;*/
-  /*-webkit-animation-iteration-count: infinite;*/
-  /*animation-iteration-count: infinite;*/
-  /*-webkit-animation-fill-mode: backwards;*/
-  /*animation-fill-mode: backwards;*/
 }
 
 #triangle_purple{
@@ -28,9 +33,25 @@
   border: 50px solid;
   margin-left: 15%;
   border-color: #2e0e5a white white white;
+  margin-top: 0;
 }
-.section_header{
-  font-size: 4.2rem
+
+
+
+/* Middle white part */
+
+.middle_white_part_whole_border{
+  height: auto;background: white;width: 100%;max-width: 1500px;margin:auto;text-align: center;
+  color: #2e0e5a;margin-bottom: 100px;padding-bottom: 100px
+}
+.section_header_we_are_webumate{
+  font-size: 4.2rem;
+}
+.middle_white_part_margin_box{
+  margin-top: 80px;margin-bottom: 80px
+}
+.middel_white_main_content{
+  font-size: 2.1rem;max-width: 1000px;margin: auto;font-weight: 300;margin-top: 20px;
 }
 .section_header_webUmate{
   font-size: 8rem;
@@ -84,12 +105,6 @@
 
 
 
-.top_left_demand_more_wording{
-  color: white;width: 50%;margin-top: 300px;padding-left: 145px
-}
-.top_left_sub_title{
-  font-size: 2.1rem;font-weight: lighter;margin-top: 18px
-}
 
 
 .carousel-inner.vv-3 .carousel-item.active,
@@ -124,20 +139,24 @@
   font-size: 2rem;color: #2e0e5a;font-weight: 400;margin-top: -20px
 }
 
-.contact_img{
-  margin-top: 50px;width: 240px
-}
 
-.contact_us_wording{
-  margin-top: -55px;margin-left:60px;font-size: 35px
-}
+
 
 @media screen and (max-width: 1700px) {
   .top_left_demand_more_wording{
     margin-top: 200px;
   }
-  .section_header{
+  .section_header_purple{
     font-size: 3.5rem;
+  }
+  .section_header_we_are_webumate{
+    font-size: 3.5rem;
+  }
+  .middle_white_part_margin_box{
+    margin-top: 50px;margin-bottom: 0px
+  }
+  .middel_white_main_content{
+    font-size: 2rem;
   }
 }
 
@@ -146,20 +165,41 @@
     padding-left: 50px;
     width: 50%;
   }
-  .section_header{
+  .section_header_purple{
     font-size: 3rem;
   }
+  .section_header_we_are_webumate{
+    font-size: 3rem;
+  }
+.middle_white_part_whole_border{
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
 }
 
 @media screen and (max-width: 1105px) {
   .homebannerimg{
     width: 50%;
   }
-  .section_header{
+  .section_header_purple{
+    font-size: 2.5rem;
+  }
+  .section_header_we_are_webumate{
     font-size: 2.5rem;
   }
   .top_left_sub_title{
     font-size: 1.5rem;
+  }
+  .middel_white_main_content{
+    font-size: 1.5rem;
+    width: 80%;margin: auto;
+  }
+  .middle_white_part_margin_box{
+    margin-top: 0;margin-bottom: 0px
+  }
+  .middle_white_part_whole_border{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 1002px) {
@@ -169,16 +209,25 @@
   .homebannerimg{
     width: 45%;
   }
-  .section_header{
+  .section_header_purple{
+    font-size: 2rem;
+  }
+  .section_header_we_are_webumate{
     font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .section_header{
+  .section_header_purple{
+    font-size: 1.8rem;
+  }
+  .section_header_we_are_webumate{
     font-size: 1.8rem;
   }
   .top_left_sub_title{
+    font-size: 1rem;
+  }
+  .middel_white_main_content{
     font-size: 1rem;
   }
   .top_left_demand_more_wording{
@@ -201,12 +250,20 @@
   .mobile_girl_img{
     position: absolute;top: 50px;margin-left: 58%;width: 40%;
   }
-  .section_header{
+  .section_header_purple{
+    font-size: 1.5rem;
+  }
+  .section_header_we_are_webumate{
     font-size: 1.5rem;
   }
   .top_left_demand_more_wording{
     margin-top: 100px;
     padding-left: 20px;
+  }
+  .middle_white_part_whole_border{
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: -20px;
   }
 }
 @media screen and (min-width: 601px) {
@@ -225,7 +282,7 @@
   .br_between_demand_more_from{
     display: none;
   }
-  .section_header{
+  .section_header_purple{
     width: 100%;
     font-size: 1.2rem;
     text-align: center;
@@ -235,6 +292,9 @@
   .top_left_sub_title{
     font-size: 1rem;
     text-align: center;
+  }
+  .middel_white_main_content{
+    font-size: 1rem;
   }
   .mobile_girl_img{
     display: none;
