@@ -1,3 +1,4 @@
+
 <div style="position: fixed;width: 100%">
   <app-navbar></app-navbar>
 </div>
@@ -52,14 +53,14 @@
   style="height: auto;background: #ff2aad;width: 100%;margin:auto;text-align: center;color: #2e0e5a;padding-bottom: 100px">
   <div id="triangle_white"></div>
 
-  <div style="max-width: 1500px;margin: auto;">
+  <div class="pink_section_main_content">
     <div class="row" style="margin: 0">
-      <div class="why_choose_left_wording" style="text-align: left;width: 50%">
-        <h1 class="section_header">WHY CHOOSE</h1>
+      <div class="why_choose_left_wording">
+        <h1 class="section_header_why_choose">WHY CHOOSE</h1>
 
         <h1 class="section_header_webUmate">webUmate?</h1>
       </div>
-      <div class="why_choose_right_icons" style="text-align: left;width: 50%">
+      <div class="why_choose_right_icons">
         <img src="../../assets/home/icon_01.png" class="icons_under_why_choose">
         <p class="icons_right_intro_under_why_choose">We can provide UI design.</p>
 
@@ -79,7 +80,7 @@
     </div>
 
 
-    <div class="row" style="margin: 0;margin-top: 50px;padding-bottom: 50px">
+    <div class="row six_buttons">
       <div class="why_choose_each">
         <div class="why_choose_white_background">
           <img src="../../assets/home/UI:UX_design.png" class="why_choose_each_img">
@@ -137,7 +138,7 @@
 
 
 <!-- Middle white recent project part -->
-<div style="height: auto;width: 100%;padding-bottom: 80px">
+<div style="height: auto;width: 100%;padding-bottom: 0" class="desktop_carousel">
   <!--  opacity: 1;filter: none-->
   <a class="carousel-control-prev" href="#recipeCarousel2" role="button" data-slide="prev"
      style="position: relative;left: 69%;">
@@ -156,7 +157,7 @@
     <span class="sr-only">Next</span>
   </a>
   <div class="row" style="max-width: 1500px;margin: auto;">
-    <h1 class="section_header" style="color: #2e0e5a">RECENT WORK</h1>
+    <h1 class="section_header_recent_word" style="color: #2e0e5a">RECENT WORK</h1>
   </div>
 
   <div class="container-fluid mt-5">
@@ -223,17 +224,22 @@
   </div>
 </div>
 
-
+<div class="mobile_carousel">
+  <div class="row" style="max-width: 1500px;margin: auto;">
+    <h1 class="section_header_recent_word" style="color: #2e0e5a">RECENT WORK</h1>
+  </div>
+  <app-mobile-carousel></app-mobile-carousel>
+</div>
 <!-- Middle white grey project part -->
 <!-- Middle pink part -->
 <div
-  style="height: auto;background: rgba(213,205,224,0.2);width: 100%;margin:auto;text-align: center;color: #2e0e5a;">
+  style="height: auto;background: rgba(213,205,224,0.2);width: 100%;margin:auto;text-align: center;color: #2e0e5a;margin-top: 60px">
   <div id="triangle_white_2"></div>
-  <div style="max-width: 1500px;margin: auto; text-align: left">
-    <h1 class="section_header" >
+  <div class="pink_section_main_content" style="max-width: 1500px;margin: auto; text-align: left">
+    <h1 class="section_header_events" >
       EVENTS
     </h1>
-    <p style="font-size: 2.5rem;font-weight: 300">
+    <p class="event_main_content">
       We will cooperate with <b style="font-weight: 500">EASI EDUCATION</b> institution to start a program which helps graduates to find
       web-developer jobs and internships in IT companies. We will cooperate to open full-stack development
       courses including front-end, back-end, UI design and Database. In this program, we also help students to
@@ -243,7 +249,7 @@
 
     <img src="../../assets/home/webUmate_logo.png" style="width: 25%;margin-left: 30%">
     <img src="../../assets/home/three_friends.png" style="width: 22%;margin-left: 3%">
-    <img src="../../assets/home/easi_education_logo.png" style="width: 16%;margin-left: 3%;margin-top: 50px">
+    <img src="../../assets/home/easi_education_logo.png" style="width: 16%;margin-left: 3%;margin-top: 10px">
   </div>
 </div>
 

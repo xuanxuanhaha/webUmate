@@ -53,10 +53,7 @@
 .middel_white_main_content{
   font-size: 2.1rem;max-width: 1000px;margin: auto;font-weight: 300;margin-top: 20px;
 }
-.section_header_webUmate{
-  font-size: 8rem;
-  color: #11ffca;
-}
+
 #triangle_white{
   width:0px;
   height:0px;
@@ -64,6 +61,16 @@
   margin-left: 85%;
   border-color: white  #ff2aad  #ff2aad  #ff2aad;
   z-index: 999;
+}
+
+
+/*Why choose webUmate*/
+.section_header_why_choose{
+  font-size: 4.2rem
+}
+.section_header_webUmate{
+  font-size: 8rem;
+  color: #11ffca;
 }
 
 #triangle_white_2{
@@ -92,7 +99,13 @@
 .why_choose_each_word{
   color: #2e0e5a;font-size: 2rem;font-weight: 500;text-align: center;
 }
+.why_choose_left_wording{
+  text-align: left;width: 50%
+}
 
+.pink_section_main_content{
+  max-width: 1500px;margin: auto; text-align: left
+}
 
 #triangle_pink{
   width:0px;
@@ -101,10 +114,17 @@
   margin-left: 15%;
   border-color: #ff2aad white white white;
 }
+.why_choose_right_icons{
+  text-align: left;width: 48%
+}
+.six_buttons{
+  margin: 0;margin-top: 50px;padding-bottom: 50px
+}
 
-
-
-
+/*Recent work part*/
+.section_header_recent_word{
+  font-size: 4.2rem
+}
 
 
 .carousel-inner.vv-3 .carousel-item.active,
@@ -140,6 +160,15 @@
 }
 
 
+/*Events*/
+.section_header_events{
+  font-size: 4.2rem;
+}
+
+.event_main_content{
+  font-size: 2.1rem;
+  font-weight: 300;
+}
 
 
 @media screen and (max-width: 1700px) {
@@ -152,11 +181,32 @@
   .section_header_we_are_webumate{
     font-size: 3.5rem;
   }
+  .section_header_why_choose{
+    font-size: 3.5rem;
+    margin-left: 50px;
+  }
+  .section_header_recent_word{
+    font-size: 3.5rem;
+    margin-left: 50px;
+  }
+  .section_header_webUmate{
+    font-size: 7rem;
+    margin-left: 50px;
+  }
+  .section_header_events{
+    font-size: 3.5rem;
+    margin-left: 50px;
+  }
   .middle_white_part_margin_box{
     margin-top: 50px;margin-bottom: 0px
   }
   .middel_white_main_content{
     font-size: 2rem;
+  }
+  .event_main_content{
+    font-size: 2rem;
+    margin-left: 50px;
+    margin-right: 40px;
   }
 }
 
@@ -171,12 +221,52 @@
   .section_header_we_are_webumate{
     font-size: 3rem;
   }
+  .section_header_why_choose{
+    font-size: 3rem;
+    margin-left: 50px;
+  }
+  .section_header_events{
+    font-size: 3rem;
+    margin-left: 50px;
+  }
+  .section_header_recent_word{
+    font-size: 3rem;
+    margin-left: 50px;
+  }
+  .section_header_webUmate{
+    font-size: 5rem;
+    margin-left: 50px;
+  }
 .middle_white_part_whole_border{
   padding-bottom: 80px;
   margin-bottom: 80px;
 }
+.why_choose_left_wording{
+  margin-top: 60px;
 }
-
+.recent_project_second_line{
+  font-size: 2.1rem;
+}
+}
+@media screen and (max-width: 1250px) {
+  .why_choose_left_wording{
+    margin-top: 80px;
+  }
+  .why_choose_white_background{
+    width: 150px;
+    height: 150px;
+  }
+  .why_choose_each_word{
+    font-size: 1.5rem;
+  }
+  .pink_section_main_content{
+    margin-top: -10px;
+    margin-bottom: -50px;
+  }
+  .recent_project_second_line{
+    font-size: 2rem;
+  }
+}
 @media screen and (max-width: 1105px) {
   .homebannerimg{
     width: 50%;
@@ -184,8 +274,20 @@
   .section_header_purple{
     font-size: 2.5rem;
   }
+  .section_header_why_choose{
+    font-size: 2.5rem;
+  }
+  .section_header_recent_word{
+    font-size: 2.5rem;
+  }
   .section_header_we_are_webumate{
     font-size: 2.5rem;
+  }
+  .section_header_events{
+    font-size: 2.5rem;
+  }
+  .section_header_webUmate{
+    font-size: 4.5rem;
   }
   .top_left_sub_title{
     font-size: 1.5rem;
@@ -194,12 +296,24 @@
     font-size: 1.5rem;
     width: 80%;margin: auto;
   }
+  .event_main_content{
+    font-size: 1.5rem;
+  }
   .middle_white_part_margin_box{
     margin-top: 0;margin-bottom: 0px
   }
   .middle_white_part_whole_border{
     padding-bottom: 50px;
     margin-bottom: 50px;
+  }
+  .recent_project_second_line{
+    font-size: 2.5rem;
+  }
+  .recent_project_second_line{
+    font-size: 2rem;
+  }
+  .recent_project_third_line{
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 1002px) {
@@ -215,19 +329,87 @@
   .section_header_we_are_webumate{
     font-size: 2rem;
   }
+  .section_header_why_choose{
+    font-size: 2rem;
+  }
+  .section_header_recent_word{
+    font-size: 2rem;
+  }
+  .section_header_events{
+    font-size: 2rem;
+  }
+  .why_choose_white_background{
+    width: 120px;
+    height: 120px;
+  }
+  .why_choose_each_img{
+    width: 120%;text-align: center;margin: auto;margin-left: -5px;margin-top: -5px;
+  }
+  .why_choose_left_wording{
+    width: 90%;
+  }
+  .section_header_webUmate{
+    font-size: 3.5rem;
+  }
+  .recent_project_second_line{
+    font-size: 1.5rem;
+  }
+  .why_choose_right_icons{
+    width: 90%;
+    margin: auto;
+  }
+  .icons_right_intro_under_why_choose{
+    font-size: 16px;
+  }
+  .why_choose_left_wording{
+    margin-top: 0;
+  }
+  .six_buttons{
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .why_choose_each_word{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 759px) {
+  .mobile_carousel{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 760px) {
+  .desktop_carousel{
+    display: none;
+  }
+  .mobile_carousel{
+    height: 130vw;
+  }
   .section_header_purple{
     font-size: 1.8rem;
   }
+  .section_header_why_choose{
+    font-size: 1.8rem;
+  }
+  .section_header_recent_word{
+    font-size: 1.8rem;
+  }
   .section_header_we_are_webumate{
+    font-size: 1.8rem;
+  }
+  .section_header_events{
     font-size: 1.8rem;
   }
   .top_left_sub_title{
     font-size: 1rem;
   }
   .middel_white_main_content{
+    font-size: 1rem;
+  }
+  .event_main_content{
+    font-size: 1rem;
+  }
+  .icons_right_intro_under_why_choose{
     font-size: 1rem;
   }
   .top_left_demand_more_wording{
@@ -242,6 +424,24 @@
   .contact_us_wording{
     font-size: 20px;margin-left: 38px;
   }
+  .why_choose_each{
+    width: 33%;
+  }
+  #triangle_white{
+    margin-left: 65%;
+  }
+  #triangle_white_2{
+    margin-left: 65%;
+  }
+  .recent_project_first_line{
+    font-size: 1rem;
+  }
+  .recent_project_second_line{
+    font-size: 1.4rem;
+  }
+  .recent_project_third_line{
+    font-size: 1.2rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .desk_tab_girl_img{
@@ -254,6 +454,15 @@
     font-size: 1.5rem;
   }
   .section_header_we_are_webumate{
+    font-size: 1.5rem;
+  }
+  .section_header_why_choose{
+    font-size: 1.5rem;
+  }
+  .section_header_recent_word{
+    font-size: 1.5rem;
+  }
+  .section_header_events{
     font-size: 1.5rem;
   }
   .top_left_demand_more_wording{
@@ -273,6 +482,9 @@
 
 }
 @media screen and (max-width: 500px) {
+  .mobile_carousel{
+    height: 150vw;
+  }
   .top_left_demand_more_wording{
     width: 90%;
     padding-left: 0;
@@ -284,7 +496,6 @@
   }
   .section_header_purple{
     width: 100%;
-    font-size: 1.2rem;
     text-align: center;
     margin-top: 30px;
     padding-left: 0;
@@ -293,7 +504,13 @@
     font-size: 1rem;
     text-align: center;
   }
+  /*.section_header_why_choose{*/
+  /*  font-size: 1rem;*/
+  /*}*/
   .middel_white_main_content{
+    font-size: 1rem;
+  }
+  .event_main_content{
     font-size: 1rem;
   }
   .mobile_girl_img{
@@ -309,6 +526,9 @@
     margin-left: 40%;
     padding-bottom: 30px;
   }
+  .why_choose_each{
+    width: 50%;
+  }
 }
 @media screen and (max-width: 400px) {
   .contact_img{
@@ -321,4 +541,9 @@
     margin-left: 40%;
     padding-bottom: 30px;
   }
+  .mobile_carousel{
+    height: 165vw;
+  }
 }
+
+
