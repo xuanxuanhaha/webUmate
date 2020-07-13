@@ -24,9 +24,35 @@
   height:0px;
   border: 50px solid;
   margin-left: 45%;
-  border-color: #2e0e5a white white white;
+  border-color: #2e0e5a transparent transparent transparent;
   margin-top: 0;
+  z-index: 999;
 }
+
+
+/* Main section */
+.whole_border_of_main_section{
+  width: 100%;padding-top: 50px;padding-bottom: 50px;border-top: 1px solid #2e0e5a;color: #2e0e5a;
+}
+.whole_border_of_main_section_wordings{
+  width: 80%;margin: auto
+}
+.title_wording{
+  font-size: 3.5rem;font-weight: 500
+}
+.sub_wording{
+  font-size: 2.5rem;font-weight: 300;
+}
+.whole_border_of_main_section:hover{
+  background-color: #ff2aad;
+  transition: 1s;
+  cursor: pointer;
+}
+.whole_border_of_main_section:hover{
+  color: white;
+}
+
+
 
 @media screen and (max-width: 1700px) {
   .top_left_our_services{
@@ -45,8 +71,23 @@
   .section_header_purple{
     font-size: 3rem;
   }
-}
 
+  .title_wording{
+    font-size: 3rem;font-weight: 500
+  }
+  .sub_wording{
+    font-size: 2rem;font-weight: 300;
+  }
+
+}
+@media screen and (max-width: 1152px) {
+  .title_wording{
+    font-size: 2.5rem;font-weight: 500
+  }
+  .sub_wording{
+    font-size: 1.8rem;font-weight: 300;
+  }
+}
 @media screen and (max-width: 1105px) {
   .homebannerimg{
     width: 50%;
@@ -61,6 +102,9 @@
     font-size: 1.5rem;
     width: 80%;margin: auto;
   }
+  .whole_border_of_main_section_wordings{
+    width: 90%;
+  }
 }
 @media screen and (max-width: 1002px) {
   .top_left_our_services{
@@ -71,6 +115,12 @@
   }
   .section_header_purple{
     font-size: 2rem;
+  }
+  .title_wording{
+    font-size: 2rem;font-weight: 500
+  }
+  .sub_wording{
+    font-size: 1.4rem;font-weight: 300;
   }
 }
 
@@ -87,10 +137,25 @@
   .homebannerimg{
     width: 40%;
   }
+  .title_wording{
+    font-size: 1.8rem;font-weight: 500
+  }
+  .sub_wording{
+    font-size: 1rem;font-weight: 300;
+  }
+  #triangle_purple{
+    margin-left: 40%;
+  }
 }
 @media screen and (max-width: 680px) {
   .top_left_sub_title{
     padding-bottom: 50px;
+  }
+  .title_wording{
+    font-size: 1.5rem;font-weight: 500
+  }
+  .sub_wording{
+    font-size: 1rem;font-weight: 300;
   }
 }
 @media screen and (max-width: 600px) {
@@ -142,5 +207,13 @@
   .mobile_girl_img{
     display: none;
   }
-
+  .title_wording{
+    font-size: 1.2rem;font-weight: 500
+  }
+  .sub_wording{
+    font-size: 0.8rem;font-weight: 300;
+  }
+  #triangle_purple{
+    margin-left: 35%;
+  }
 }
