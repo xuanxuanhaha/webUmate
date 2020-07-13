@@ -7,6 +7,7 @@ import {RouterModule} from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MobileCarouselComponent } from './mobile-carousel/mobile-carousel.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MobileCarouselComponent } from './mobile-carousel/mobile-carousel.compo
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    MobileCarouselComponent
+    MobileCarouselComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
