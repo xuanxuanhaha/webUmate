@@ -18,6 +18,7 @@ export class NavbarComponent implements OnInit {
     document.getElementById('whitelogo').style.display = 'block';
     document.getElementById('purplelogo').style.display = 'none';
     document.getElementById('whitelogo_mobile').style.display = 'block';
+    document.getElementById('purple_phone_logo').style.display = 'none';
     document.getElementById('purplelogo_mobile').style.display = 'none';
     document.getElementById('white_phone_logo').style.display = 'block';
     document.getElementById('navbar_outer').style.background = 'transparent';

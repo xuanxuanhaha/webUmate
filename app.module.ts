@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MobileCarouselComponent } from './mobile-carousel/mobile-carousel.component';
 import { ServiceComponent } from './service/service.component';
+import {TeamComponent} from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ServiceComponent } from './service/service.component';
     NavbarComponent,
     FooterComponent,
     MobileCarouselComponent,
-    ServiceComponent
+    ServiceComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
