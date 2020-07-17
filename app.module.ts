@@ -9,6 +9,11 @@ import { FooterComponent } from './footer/footer.component';
 import { MobileCarouselComponent } from './mobile-carousel/mobile-carousel.component';
 import { ServiceComponent } from './service/service.component';
 import {TeamComponent} from './team/team.component';
+import {ContactComponent} from './contact/contact.component';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import {GoogleMapComponentComponent} from './google-map-component/google-map-component.component';
+
 
 @NgModule({
   declarations: [
@@ -18,12 +23,16 @@ import {TeamComponent} from './team/team.component';
     FooterComponent,
     MobileCarouselComponent,
     ServiceComponent,
-    TeamComponent
+    TeamComponent,
+    ContactComponent,
+    GoogleMapComponentComponent
   ],
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
